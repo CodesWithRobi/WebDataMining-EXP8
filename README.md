@@ -6,7 +6,7 @@
 
 ### DATE:
 
-### AIM: To perform Web Scraping on Amazon using (beautifulsoup) Python.
+### AIM: To perform Web Scraping on shopclues using (beautifulsoup) Python.
 
 ### Description:
 
@@ -25,10 +25,10 @@ One can search, navigate, and modify data using a parser. It’s versatile and s
 
 1. Import necessary libraries (requests, BeautifulSoup, re, matplotlib.pyplot).
 2. Define convert_price_to_float(price) Function: to Remove non-numeric characters from a price string and convert it to a float.
-3. Define get_amazon_products(search_query) Function: to Scrape Amazon for product information based on the search query.
+3. Define get_shopclues_products(search_query) Function: to Scrape shopclues for product information based on the search query.
 4. Fetch and parse the HTML content then Extract product names and prices from the search results and Sort product information based on converted prices in ascending order.
 5. Return sorted product data as a list of dictionaries.
-6. Call get_amazon_products(search_query) to get product data based on the user's search query.
+6. Call get_shopclues_products(search_query) to get product data based on the user's search query.
 7. Check if products are found; if not, display "No products found."
 8. Visualize Product Data using a Bar Chart
 
@@ -88,7 +88,9 @@ else:
 ```
 
 ### Output:
+![Screenshot from 2024-11-05 08-44-26](https://github.com/user-attachments/assets/c5ab92dc-74b3-44a8-8c8c-28cef4738a71)
+![scrap](https://github.com/user-attachments/assets/3ae1d97d-6a9d-4ada-9253-3c8a86849afc)
 
 ### Result:
 
-Sucessfully performed Web Scraping on Amazon using (beautifulsoup) Python.
+Sucessfully performed Web Scraping on shopclues using (beautifulsoup) Python.
